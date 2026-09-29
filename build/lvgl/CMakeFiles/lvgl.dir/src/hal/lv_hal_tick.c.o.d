@@ -1,0 +1,22 @@
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o: \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/hal/lv_hal_tick.c \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdc-predef.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/hal/lv_hal_tick.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/hal/../lv_conf_internal.h \
+ /usr/local/arm/5.4.0/usr/lib/gcc/arm-none-linux-gnueabi/5.4.0/include/stdint.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdint.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/features.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/bits/wordsize.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/gnu/stubs.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/gnu/stubs-soft.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/bits/wchar.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/hal/../lv_conf_kconfig.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/./lv_conf.h \
+ /usr/local/arm/5.4.0/usr/lib/gcc/arm-none-linux-gnueabi/5.4.0/include/stdbool.h \
+ /usr/local/arm/5.4.0/usr/lib/gcc/arm-none-linux-gnueabi/5.4.0/include/stddef.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/time.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/bits/time.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/bits/types.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/bits/typesizes.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/xlocale.h

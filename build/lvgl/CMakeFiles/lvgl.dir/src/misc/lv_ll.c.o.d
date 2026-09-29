@@ -1,0 +1,21 @@
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o: \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/misc/lv_ll.c \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdc-predef.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/misc/lv_ll.h \
+ /usr/local/arm/5.4.0/usr/lib/gcc/arm-none-linux-gnueabi/5.4.0/include/stdint.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdint.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/features.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/bits/wordsize.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/gnu/stubs.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/gnu/stubs-soft.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/bits/wchar.h \
+ /usr/local/arm/5.4.0/usr/lib/gcc/arm-none-linux-gnueabi/5.4.0/include/stddef.h \
+ /usr/local/arm/5.4.0/usr/lib/gcc/arm-none-linux-gnueabi/5.4.0/include/stdbool.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/misc/lv_mem.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/misc/../lv_conf_internal.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/misc/../lv_conf_kconfig.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/./lv_conf.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/string.h \
+ /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/xlocale.h \
+ /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/lvgl/src/misc/lv_types.h
