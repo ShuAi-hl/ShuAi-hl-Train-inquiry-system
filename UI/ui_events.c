@@ -18,8 +18,6 @@ extern Node * head;
 char add[30];	// 用于存储起始城市的字符串
 char end[30];	// 用于存储目的地的字符串
 
-/////////////////////////////////
-
 lv_obj_t * ui_CITY_Local[29] = {0};
 lv_obj_t * ui_CITY_Destination[29] = {0};
 lv_calendar_date_t date[1] = {0};
@@ -223,7 +221,14 @@ void Datas_Putout(lv_event_t * e)
 	lv_refr_now(NULL);
 
 	pthread_create(&tid, NULL, Get_Datas, NULL);
-	sleep(10);
+
+	
+    if (pthread_join(tid, NULL) != 0) 
+	{
+        perror("Failed to join thread");
+        return;
+    }
+	//sleep(10);
 	lv_textarea_set_text(ui_TextArea2, "");
 	if(head->next == NULL || head->code == 400)
 	{

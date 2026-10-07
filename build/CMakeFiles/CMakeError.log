@@ -1,23 +1,23 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6b95/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6b95.dir/build.make CMakeFiles/cmTC_f6b95.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19d74/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19d74.dir/build.make CMakeFiles/cmTC_19d74.dir/build
 gmake[1]: Entering directory '/mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f6b95.dir/src.c.o
-/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f6b95.dir/src.c.o -c /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_f6b95
-/opt/cmake-3.22.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6b95.dir/link.txt --verbose=1
-/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc CMakeFiles/cmTC_f6b95.dir/src.c.o -o cmTC_f6b95 
-CMakeFiles/cmTC_f6b95.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_19d74.dir/src.c.o
+/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_19d74.dir/src.c.o -c /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_19d74
+/opt/cmake-3.22.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d74.dir/link.txt --verbose=1
+/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc CMakeFiles/cmTC_19d74.dir/src.c.o -o cmTC_19d74 
+CMakeFiles/cmTC_19d74.dir/src.c.o: In function `main':
 src.c:(.text+0x48): undefined reference to `pthread_create'
 src.c:(.text+0x54): undefined reference to `pthread_detach'
 src.c:(.text+0x60): undefined reference to `pthread_cancel'
 src.c:(.text+0x70): undefined reference to `pthread_join'
 src.c:(.text+0x80): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_f6b95.dir/build.make:99: cmTC_f6b95] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_19d74.dir/build.make:99: cmTC_19d74] Error 1
 gmake[1]: Leaving directory '/mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_f6b95/fast] Error 2
+gmake: *** [Makefile:127: cmTC_19d74/fast] Error 2
 
 
 Source file was:
@@ -44,18 +44,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca131/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca131.dir/build.make CMakeFiles/cmTC_ca131.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80b39/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80b39.dir/build.make CMakeFiles/cmTC_80b39.dir/build
 gmake[1]: Entering directory '/mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ca131.dir/CheckFunctionExists.c.o
-/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ca131.dir/CheckFunctionExists.c.o -c /opt/cmake-3.22.1-linux-x86_64/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ca131
-/opt/cmake-3.22.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca131.dir/link.txt --verbose=1
-/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_ca131.dir/CheckFunctionExists.c.o -o cmTC_ca131  -lpthreads 
+Building C object CMakeFiles/cmTC_80b39.dir/CheckFunctionExists.c.o
+/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_80b39.dir/CheckFunctionExists.c.o -c /opt/cmake-3.22.1-linux-x86_64/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80b39
+/opt/cmake-3.22.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80b39.dir/link.txt --verbose=1
+/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_80b39.dir/CheckFunctionExists.c.o -o cmTC_80b39  -lpthreads 
 /usr/local/arm/5.4.0/usr/bin/../lib/gcc/arm-none-linux-gnueabi/5.4.0/../../../../arm-none-linux-gnueabi/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_ca131.dir/build.make:99: cmTC_ca131] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_80b39.dir/build.make:99: cmTC_80b39] Error 1
 gmake[1]: Leaving directory '/mnt/d/作业/粤嵌培训/二阶段/二阶段项目/code/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_ca131/fast] Error 2
+gmake: *** [Makefile:127: cmTC_80b39/fast] Error 2
 
 
 
