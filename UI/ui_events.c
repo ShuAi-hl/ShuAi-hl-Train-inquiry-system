@@ -18,6 +18,8 @@ extern Node * head;
 char add[30];	// 用于存储起始城市的字符串
 char end[30];	// 用于存储目的地的字符串
 
+/////////////////////////////////
+
 lv_obj_t * ui_CITY_Local[29] = {0};
 lv_obj_t * ui_CITY_Destination[29] = {0};
 lv_calendar_date_t date[1] = {0};
