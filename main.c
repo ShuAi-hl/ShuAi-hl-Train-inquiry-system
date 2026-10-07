@@ -21,6 +21,8 @@ static void event_handler(lv_event_t * e)
 
 int main(void)
 {
+
+    /////////////////////////////////////////
     /////////////////////////////////////////
     /*LittlevGL init*/
     lv_init();
