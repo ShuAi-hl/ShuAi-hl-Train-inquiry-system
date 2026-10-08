@@ -1,4 +1,7 @@
 # 列车实时显示系统 基于apihz开发
+# 查询并显示列车的信息（出发地、出发车站，目的地、目的车站，出发时间，到达时间，出发日期）
+
+# 使用方法：
 在Src目录下的HTTP.c文件中
 
 <img width="949" height="102" alt="image" src="https://github.com/user-attachments/assets/2e05eee5-c723-4519-ac64-18611f2bb879" />
